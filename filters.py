@@ -2,7 +2,6 @@ from houdini import handlers
 from houdini.handlers import XTPacket
 from houdini.plugins import IPlugin
 from houdini.handlers.play.moderation import moderator_ban,moderator_kick
-from concurrent.futures import ThreadPoolExecutor
 
 import os
 import re
